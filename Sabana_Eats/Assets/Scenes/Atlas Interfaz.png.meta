@@ -572,13 +572,13 @@ TextureImporter:
       name: Atlas Interfaz_21
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2719
-        width: 1316
-        height: 1351
+        x: 42
+        y: 2731
+        width: 1297
+        height: 1322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 15, y: 30, z: 0, w: 18}
+      border: {x: 15, y: 30, z: 14, w: 18}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -593,10 +593,10 @@ TextureImporter:
       name: Atlas Interfaz_22
       rect:
         serializedVersion: 2
-        x: 1533
-        y: 2719
+        x: 1550
+        y: 2735
         width: 1280
-        height: 1341
+        height: 1315
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 5, y: 0, z: 0, w: 15}
@@ -657,9 +657,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3043
-        y: 2812
+        y: 2734
         width: 1240
-        height: 1217
+        height: 1382
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
