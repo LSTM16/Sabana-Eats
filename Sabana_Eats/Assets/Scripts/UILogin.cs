@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.UI;
 public class UILogin : MonoBehaviour
 {
-    public TMPro.TMP_Text userText;
-    public TMPro.TMP_Text passUser;
+    public TMPro.TMP_InputField userText;
+    public TMPro.TMP_InputField passUser;
     public string[] userApp;
     public string[] passwords;
     // Start is called before the first frame update
