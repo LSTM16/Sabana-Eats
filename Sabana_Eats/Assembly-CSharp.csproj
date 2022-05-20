@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UILogin.cs" />
     <Compile Include="Assets\Scripts\ChargeLogin.cs" />
+    <Compile Include="Assets\Scripts\ControlMenuPrincipal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

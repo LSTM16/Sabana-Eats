@@ -8,13 +8,32 @@ public class UILogin : MonoBehaviour
 {
     public TMPro.TMP_InputField userText;
     public TMPro.TMP_InputField passUser;
+    public TMPro.TMP_InputField userRegisterText;
+    public TMPro.TMP_InputField passRegisterUser;
     public string[] userApp;
     public string[] passwords;
+    public GameObject[] paneles;
+    public int condicion;
+    
     // Start is called before the first frame update
     void Start()
     {
+        condicion = PlayerPrefs.GetInt("panelCharge");
+
+        if(condicion==0)
+        {
+            paneles[0].SetActive(true);
+            paneles[1].SetActive(false);
+        }
+        else if (condicion == 1)
+            {
+                paneles[0].SetActive(false);
+                paneles[1].SetActive(true);
+            }
         userText.text = "";
         passUser.text = "";
+        userRegisterText.text = "";
+        passRegisterUser.text = "";
     }
 
     // Update is called once per frame
@@ -32,11 +51,15 @@ public class UILogin : MonoBehaviour
                 {
                     if (passwords.ToString() == passUser.text.ToString())
                     {
+                        SceneManager.LoadScene("Menu Principal", LoadSceneMode.Single);
+                    }else
+                    {
+                    }
 
-                    }
-                    
-                    }
                 }
             }
-        }
+            }
+        
+        
+            }
     }

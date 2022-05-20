@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mi Perfil.unity
     guid: 454c91b7f3da64547a276f025fc89711
   - enabled: 1
+    path: Assets/Scenes/PuntosComida.unity
+    guid: 986ef1b16e6815447bf3354d9145686f
+  - enabled: 1
     path: Assets/Scenes/Soporte.unity
     guid: e41e73a5aa37fe946af24bf2215b6560
   m_configObjects: {}
